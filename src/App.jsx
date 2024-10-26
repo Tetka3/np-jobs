@@ -9,7 +9,7 @@ import Home from './pages/Home';
 const router = createBrowserRouter(
   createRoutesFromElements(
     <>
-      <Route path='/np-social' element={<Home />} />             
+      <Route path='/np-jobs' element={<Home />} />             
     </>
   )
 );
