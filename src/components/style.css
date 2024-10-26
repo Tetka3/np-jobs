@@ -15,5 +15,9 @@
     list-style: none;
 }
 .rightBar ul li{
-    display: block;
+    display: inline-flex;
+    padding: 10px;        
+}
+.rightBar ul li:hover{
+    background-color: rgb(94, 136, 94);        
 }
