@@ -1,0 +1,19 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    background-color: bisque;
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.leftBar span{
+    color: red;
+}
+.rightBar ul{
+    list-style: none;
+}
+.rightBar ul li{
+    display: block;
+}
