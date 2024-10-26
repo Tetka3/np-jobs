@@ -1,9 +1,24 @@
+import { 
+  createBrowserRouter,
+  createRoutesFromElements,
+  Route,
+  RouterProvider 
+} from 'react-router-dom'
+import Home from './pages/Home';
+
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <>
+      <Route path='/np-social' element={<Home />} />             
+    </>
+  )
+);
 
 function App() {
   return (
-    <div className="App">      
-        My jobs website
-    </div>
+    <>   
+      <RouterProvider router={router}/>       
+    </>
   );
 }
 
