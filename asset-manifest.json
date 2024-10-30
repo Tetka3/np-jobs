@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/np-jobs/static/css/main.62ecff58.css",
-    "main.js": "/np-jobs/static/js/main.119cb23b.js",
+    "main.css": "/np-jobs/static/css/main.b7cd73a7.css",
+    "main.js": "/np-jobs/static/js/main.a02b17e5.js",
     "static/js/453.ed3810f9.chunk.js": "/np-jobs/static/js/453.ed3810f9.chunk.js",
     "static/media/job.jpg": "/np-jobs/static/media/job.99f3e0e9c6d2beb218c1.jpg",
     "index.html": "/np-jobs/index.html",
-    "main.62ecff58.css.map": "/np-jobs/static/css/main.62ecff58.css.map",
-    "main.119cb23b.js.map": "/np-jobs/static/js/main.119cb23b.js.map",
+    "main.b7cd73a7.css.map": "/np-jobs/static/css/main.b7cd73a7.css.map",
+    "main.a02b17e5.js.map": "/np-jobs/static/js/main.a02b17e5.js.map",
     "453.ed3810f9.chunk.js.map": "/np-jobs/static/js/453.ed3810f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62ecff58.css",
-    "static/js/main.119cb23b.js"
+    "static/css/main.b7cd73a7.css",
+    "static/js/main.a02b17e5.js"
   ]
 }
