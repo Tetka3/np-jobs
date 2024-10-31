@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Main = () => {
+const Main = ({ jobs }) => {
   return (
     <div className='main'>
       nnn
