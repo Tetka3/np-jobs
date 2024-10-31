@@ -14,13 +14,13 @@ const Footer = () => {
       </div>
       <div className="middleFooter">
         <p>Social</p>
-        <u>
+        <ul>
           <li>Facebook</li>
           <li>Instagram</li>
           <li>X</li>
           <li>Pinterest</li>
           <li>WhatsApp</li>
-        </u>
+        </ul>
       </div>
       <div className="rightFooter">
         <p>Legal</p> 

@@ -90,7 +90,11 @@
     color: white;
     padding: 30px;
 }
-.leftFooter ul, .middleFooter ul, .rightFooter ul {
+.middleFooter ul, .leftFooter ul, .rightFooter ul {
     list-style: none;
-
+}
+.middleFooter ul li:hover, .leftFooter ul li:hover, .rightFooter ul li:hover {
+    text-decoration: underline;
+    color: yellow;
+    cursor: pointer;
 }
