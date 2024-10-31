@@ -1,9 +1,9 @@
-import React from 'react'
+import Jobs from './Jobs'
 
 const Main = ({ jobs }) => {
   return (
     <div className='main'>
-      nnn
+      <Jobs jobs={jobs}/>
     </div>
   )
 }

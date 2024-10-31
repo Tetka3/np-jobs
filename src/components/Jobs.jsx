@@ -1,9 +1,11 @@
-import React from 'react'
+import Job from './Job'
 
-const Jobs = () => {
+const Jobs = ({ jobs }) => {
   return (
     <div>
-      Jobs
+      {
+        jobs.map((job) => <Job job={job}/>)
+      }
     </div>
   )
 }
