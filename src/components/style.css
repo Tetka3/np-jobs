@@ -83,7 +83,14 @@
     border-radius: 3px;
 }
 .footer {
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     height: 30vh;
     color: white;
+    padding: 30px;
+}
+.leftFooter ul, .middleFooter ul, .rightFooter ul {
+    list-style: none;
+
 }
