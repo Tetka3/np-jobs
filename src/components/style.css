@@ -1,0 +1,81 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white; 
+    height: 250px;
+    background-color: rgb(194, 163, 126);
+    margin: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    /* background-color: rgb(110, 163, 163); */
+    /* background-image: url('../assets/search.jpg'); */
+}
+.leftBar{
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+.leftBar span{
+    text-align: center;   
+    font-size: xx-large;
+    cursor: pointer;
+}
+.leftBar img{
+    height: 50px;
+    width: 70px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.rightBar ul{
+    list-style: none;
+}
+.rightBar ul li{
+    display: inline-flex;
+    padding: 10px;        
+}
+.rightBar ul li:hover{
+    /* background-color: rgb(94, 136, 94); */
+    cursor: pointer;  
+    color: yellow;  
+    text-decoration: underline;    
+}
+.dashboard {
+    display: flex;
+    gap: 10px;
+    margin: 30px;
+}
+.sidebar {
+    flex: 1;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 3px;
+    height: max-content;
+}
+.sidebar ul {
+    list-style: none;
+    font-size: 22px;
+}
+.sidebar ul li {
+    display: flex;
+    margin-bottom: 20px;
+    
+}
+.sidebar ul li:hover{
+    color: green;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.main {
+    flex: 4;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 5px;
+    height: 100vh;
+}
+
+.footer {
+    background-color: black;
+    height: 30vh;
+    color: white;
+}
