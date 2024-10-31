@@ -1,4 +1,5 @@
-import Jobs from './Jobs'
+import Jobs from './Jobs';
+import './style.css';
 
 const Main = ({ jobs }) => {
   return (
