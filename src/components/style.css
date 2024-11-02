@@ -4,7 +4,9 @@
     justify-content: space-between;
     color: white; 
     height: 250px;
-    background-color: rgb(194, 163, 126);
+    background-image: url("../assets/bg.jpg");
+    background-size: cover;
+    /* background-color: rgb(194, 163, 126); */
     margin: 0px;
     padding-left: 30px;
     padding-right: 30px;

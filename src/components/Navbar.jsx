@@ -7,7 +7,7 @@ const Navbar = () => {
     <div className="navbar">
         <div className="leftBar">
             <Link to='/np-jobs'><img src={job}/></Link>
-            <Link to='/np-jobs' style={{textDecoration: 'none'}}><span><bold style={{color: 'red'}}>Job</bold><bold style={{color: 'green'}}>Seek</bold></span></Link>
+            <Link to='/np-jobs' style={{textDecoration: 'none'}}><span><bold style={{color: 'red'}}>Job</bold><bold style={{color: 'orange'}}>Seek</bold></span></Link>
         </div>
         <div className="rightBar">
             <ul>
