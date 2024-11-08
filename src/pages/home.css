@@ -11,26 +11,26 @@
     object-fit: contain;
     padding-top: 34px;
 }
-.loginForm {
+.loginForm, .registerForm {
     flex: 1;
     border: 1px solid black;
     height: 100vh;
     padding: 80px;
     gap: 30px;
 }
-.loginForm form {
+.loginForm form, .registerForm form {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.loginForm form input{
+.loginForm form input, .registerForm form input{
     width: 90%;
     height: 40px;
     border: 1px solid black;
     border-radius: 5px;
     background-color: rgb(235, 221, 221);    
 }
-.loginForm form button, .register form button {
+.loginForm form button, .registerForm form button {
     display: block;
     padding: 15px;
     padding-left: 80px;
