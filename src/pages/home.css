@@ -6,14 +6,14 @@
 }
 .jobsImage {
     flex: 1;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 100vh;
 }
 .jobsImage img {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* height: inherit; */
+    width: 100%;
+    object-fit: contain;
+    padding-top: 34px;
+    height: 100vh;  
 }
 .loginForm {
     flex: 1;

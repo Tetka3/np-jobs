@@ -1,6 +1,6 @@
 import './home.css';
 import { useNavigate } from 'react-router-dom';
-import hire from '../assets/hire.jpg';
+import hire from '../assets/hired.jpg';
 
 const Login = () => {
 
