@@ -7,13 +7,18 @@ const Login = () => {
   
   return (
     <div className='login'>
-      <form>
-        <label>Email</label>
-        <input type='text' placeholder='Enter Your Email'/>
-        <label>Password</label>
-        <input type='password' placeholder='Enter Password here...'/>
-        <button onClick={() => navigate('/np-jobs')}>Log In</button>
+      <div className='jobsImage'>
+        {/* <img src={}/> */}
+      </div>
+      <div>
+        <form>
+          <label>Email</label>
+          <input type='text' placeholder='Enter Your Email'/>
+          <label>Password</label>
+          <input type='password' placeholder='Enter Password here...'/>
+          <button onClick={() => navigate('/np-jobs')}>Log In</button>
       </form>
+      </div>
     </div>
   )
 }

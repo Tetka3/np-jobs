@@ -11,6 +11,7 @@ const Navbar = () => {
         </div>
         <div className="rightBar">
             <ul>
+            <Link to='/np-jobs/post-job' style={{color: 'white', fontSize: '22px'}}><li>Find Jobs</li></Link>
             <Link to='/np-jobs/post-job' style={{color: 'white', fontSize: '22px'}}><li>Post Jobs</li></Link>
             <Link to='/np-jobs/login' style={{color: 'white', fontSize: '22px'}}><li>Sign In</li></Link>
             <Link to='/np-jobs/register' style={{color: 'white', fontSize: '22px'}}><li>Create Account</li></Link>
