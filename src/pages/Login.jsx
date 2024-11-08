@@ -12,6 +12,8 @@ const Login = () => {
         <img src={hire}/>
       </div>
       <div className='loginForm'>
+        <h3>Welcome Back!</h3>
+        <p>Not Joined JobbSeek? Register Now free of charge</p>
         <form>
           <label>Email</label>
           <input type='text' placeholder='Enter Your Email'/>

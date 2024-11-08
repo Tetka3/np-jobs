@@ -2,33 +2,34 @@
 .login {
     display: flex;
     align-items: center;
-    /* margin: 30px; */
 }
 .jobsImage {
     flex: 1;
-    /* border: 1px solid black; */
-    height: 100vh;
+    /* height: 100vh; */
 }
 .jobsImage img {
     width: 100%;
     object-fit: contain;
     padding-top: 34px;
-    height: 100vh;  
+    /* height: 100vh;   */
 }
 .loginForm {
     flex: 1;
     border: 1px solid black;
     height: 100vh;
+    padding: 80px;
 }
-.login form, .register form {
+.loginForm form {
+    background-color: red;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: aqua;
-    border: 1px solid black;
-    margin: 50px;
-    padding: 30px;
-    gap: 20px;
+    gap: 30px;
+}
+.loginForm form input{
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;    
 }
 .login form button, .register form button {
     display: block;
@@ -41,14 +42,14 @@
     border-radius: 3px;
     cursor: pointer;
 }
-.login form label, .register form label {
+/* .login form label, .register form label {
     font-size: larger;
 }
 .login form input, .register form input {
     width: 30%;
     height: 25px;
     border: none;
-}
+} */
 .postJob {
     display: flex;
     flex-direction: column;
