@@ -5,13 +5,11 @@
 }
 .jobsImage {
     flex: 1;
-    /* height: 100vh; */
 }
 .jobsImage img {
     width: 100%;
     object-fit: contain;
     padding-top: 34px;
-    /* height: 100vh;   */
 }
 .loginForm {
     flex: 1;
@@ -48,14 +46,7 @@
     display: flex;
     float: left;
 }
-/* .login form label, .register form label {
-    font-size: larger;
-}
-.login form input, .register form input {
-    width: 30%;
-    height: 25px;
-    border: none;
-} */
+
 .postJob {
     display: flex;
     flex-direction: column;
