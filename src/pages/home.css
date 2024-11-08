@@ -2,9 +2,23 @@
 .login {
     display: flex;
     align-items: center;
+    /* margin: 30px; */
 }
 .jobsImage {
     flex: 1;
+    border: 1px solid black;
+    height: 100vh;
+}
+.jobsImage img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: inherit; */
+}
+.loginForm {
+    flex: 1;
+    border: 1px solid black;
+    height: 100vh;
 }
 .login form, .register form {
     display: flex;
