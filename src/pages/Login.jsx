@@ -1,5 +1,6 @@
 import './home.css';
-import { useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom';
+import hire from '../assets/hire.jpg';
 
 const Login = () => {
 
@@ -8,9 +9,9 @@ const Login = () => {
   return (
     <div className='login'>
       <div className='jobsImage'>
-        {/* <img src={}/> */}
+        <img src={hire}/>
       </div>
-      <div>
+      <div className='loginForm'>
         <form>
           <label>Email</label>
           <input type='text' placeholder='Enter Your Email'/>

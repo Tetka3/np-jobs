@@ -1,4 +1,11 @@
 
+.login {
+    display: flex;
+    align-items: center;
+}
+.jobsImage {
+    flex: 1;
+}
 .login form, .register form {
     display: flex;
     flex-direction: column;
