@@ -42,6 +42,18 @@
     cursor: pointer;
     width: 91%;
 }
+.loginForm button {
+    display: block;
+    padding: 15px;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: rgb(140,190,140);
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 91%;
+}
 .checkboxInput {
     display: flex;
     float: left;
