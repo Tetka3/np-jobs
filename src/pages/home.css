@@ -43,12 +43,10 @@
     width: 91%;
     font-size: 17px;
 }
-
 .checkboxInput {
     display: flex;
     float: left;
 }
-
 .postJob {
     display: flex;
     flex-direction: column;
