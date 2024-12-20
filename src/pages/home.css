@@ -19,7 +19,7 @@
     border-radius: 5px;
     height: 100vh;
     padding: 80px;
-    gap: 30px;
+    gap: 30px;  
 }
 .loginForm form, .registerForm form {
     display: flex;

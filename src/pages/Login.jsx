@@ -28,7 +28,7 @@ const Login = () => {
       <p>Try</p>
       <button onClick={() => navigate('/np-jobs')}>Continue with Google</button><br></br>
       <button onClick={() => navigate('/np-jobs')}>Continue with Apple</button>
-      <p>I accept JobSeek's GTC and acknowledge the Privacy Policy.</p>
+      <p>I accept JobSeek's GTC and acknowledge the Privacy Policy.</p><br></br>
       </div>
     </div>
   )
