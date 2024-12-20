@@ -2,6 +2,8 @@
 .login, .register {
     display: flex;
     align-items: center;
+    padding: 40px;
+    gap: 20px;
 }
 .jobsImage {
     flex: 1;
@@ -14,6 +16,7 @@
 .loginForm, .registerForm {
     flex: 1;
     border: 1px solid black;
+    border-radius: 5px;
     height: 100vh;
     padding: 80px;
     gap: 30px;
