@@ -17,14 +17,14 @@
     flex: 1;
     border: 1px solid black;
     border-radius: 5px;
-    height: 100vh;
-    padding: 80px;
-    gap: 30px;  
+    height: fit-content;
+    padding: 10px 80px;
+    gap: 20px;  
 }
 .loginForm form, .registerForm form {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    /* gap: 10px; */
 }
 .loginForm form input, .registerForm form input{
     width: 90%;
