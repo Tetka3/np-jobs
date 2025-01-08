@@ -7,7 +7,6 @@ const Sidebar = () => {
         <li>My Jobs</li>
         <li>Saved Jobs</li>
         <li>Favorite Jobs</li>
-        <li>Favorite Jobs</li>
         <li>More Jobs</li>
         <li></li>
         <li></li>
