@@ -1,8 +1,10 @@
+import { useNavigate } from 'react-router-dom';
 import './style.css'
 
 const Sidebar = () => {
 
-  
+  const navigate = useNavigate();
+
   return (
     <div className='sidebar'>
       <ul>
