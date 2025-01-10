@@ -1,6 +1,8 @@
 import './style.css'
 
 const Sidebar = () => {
+
+  
   return (
     <div className='sidebar'>
       <ul>
