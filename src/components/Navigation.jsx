@@ -1,4 +1,4 @@
-import React from 'react'
+import "./style.css";
 
 const Navigation = () => {
   return (
@@ -8,4 +8,4 @@ const Navigation = () => {
   )
 }
 
-export default Navigation
+export default Navigation;
