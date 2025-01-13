@@ -3,6 +3,7 @@ import Dashboard from "../components/Dashboard";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import "./home.css";
+import Navigation from "../assets/Navigation";
 
 const Home = () => {
 
@@ -22,6 +23,7 @@ const Home = () => {
   return (
     <div className="home">
       <Navbar />
+      <Navigation />
       <Dashboard jobs={jobs}/>
       <Footer />
     </div>
