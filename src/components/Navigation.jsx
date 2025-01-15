@@ -5,6 +5,7 @@ const Navigation = () => {
     <div className='navigationBar'>
       <input type='text' placeholder='Search' />
       <input type='text' placeholder='Search' />
+      <input type='text' placeholder='Search' />
     </div>
   )
 }
